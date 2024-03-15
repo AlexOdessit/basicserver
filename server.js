@@ -1,6 +1,6 @@
 const express = require('express');
 const errorMiddleware = require('./middlewares/error');
-const middleware1 = require('./middlewares');
+// const middleware1 = require('./middlewares');
 const rootRouter = require('./routers');
 const app = express();
 app.use(rootRouter);
